@@ -6,7 +6,11 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Column(
-      children: [Text('profile screen'), SizedBox(height: 20)],
+      children: [
+        Text('profile screen'),
+        SizedBox(height: 20),
+        Text('profile screen'),
+      ],
     );
   }
 }
