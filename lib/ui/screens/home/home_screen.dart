@@ -1,4 +1,3 @@
-import 'package:consultant_app/models/auth_models/auth_model.dart';
 import 'package:consultant_app/utils/extension/nav.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
