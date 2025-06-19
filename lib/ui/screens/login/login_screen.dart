@@ -40,7 +40,7 @@ class LoginScreen extends StatelessWidget {
                             SizedBox(height: 20),
 
                             CustomLabel(
-                              title: "Log In 222222",
+                              title: "Log In 5555555",
                               isHeadLine: true,
                             ),
                             SizedBox(height: 18),
