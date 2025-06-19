@@ -13,4 +13,6 @@ class BaseApi {
   final String endPointLoginGuest = '/v1/auth/guest';
   final String endPointVerify = '/v1/auth/verify';
   final String endPointRefreshToken = '/v1/auth/refresh';
+  //educations
+  final String endPointGetEducation = '/v1/consultant/new/education';
 }

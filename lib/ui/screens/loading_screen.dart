@@ -1,3 +1,4 @@
+import 'package:consultant_app/services/setup.dart';
 import 'package:consultant_app/styles/colors_app.dart';
 import 'package:consultant_app/utils/extension/nav.dart';
 import 'package:flutter/material.dart';
@@ -9,7 +10,10 @@ class LoadingScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Future.delayed(Duration(seconds: 1), () {
+    Future.delayed(Duration(seconds: 1), () async {
+      if (!GetIt.I.isRegistered<GetStorage>()) {
+        await setup();
+      }
       final dataAuthSave = GetIt.I.get<GetStorage>().read("auth");
 
       if (dataAuthSave == null) {

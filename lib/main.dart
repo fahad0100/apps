@@ -1,6 +1,6 @@
 import 'package:consultant_app/services/setup.dart';
 import 'package:consultant_app/styles/theme_app.dart';
-import 'package:consultant_app/ui/screens/home_screen.dart';
+import 'package:consultant_app/ui/screens/home/home_screen.dart';
 import 'package:consultant_app/ui/screens/loading_screen.dart';
 import 'package:consultant_app/ui/screens/login/login_screen.dart';
 import 'package:consultant_app/ui/screens/signup/sign_up_screen.dart';
