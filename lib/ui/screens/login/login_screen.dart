@@ -39,13 +39,16 @@ class LoginScreen extends StatelessWidget {
                             LanguageIcon(onTap: () {}),
                             SizedBox(height: 20),
 
-                            CustomLabel(title: "Log In ", isHeadLine: true),
+                            CustomLabel(
+                              title: "Log In 222222",
+                              isHeadLine: true,
+                            ),
                             SizedBox(height: 18),
                             BlocBuilder<LoginBloc, LoginState>(
                               builder: (context, state) {
                                 return CustomField(
                                   withExt: false,
-                                  title: "Email",
+                                  title: "Email ........",
                                   hintField: "Email Login",
                                   statusValidation: bloc.emailState,
                                   controller: bloc.emailController,
