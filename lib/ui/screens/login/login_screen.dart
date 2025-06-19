@@ -1,3 +1,5 @@
+import 'package:consultant_app/models/auth_models/auth_model.dart';
+import 'package:consultant_app/repository/apis/auth_method/auth_method.dart';
 import 'package:consultant_app/styles/colors_app.dart';
 import 'package:consultant_app/ui/screens/login/bloc/login_bloc.dart';
 import 'package:consultant_app/ui/widgets/bottomsheet/display_verify_auth.dart';
@@ -10,6 +12,7 @@ import 'package:consultant_app/utils/extension/nav.dart';
 import 'package:consultant_app/utils/extension/screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:get_it/get_it.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
